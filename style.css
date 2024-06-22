@@ -43,3 +43,25 @@ background-color: #f0f945;
     animation-iteration-count: infinite;
     animation-duration: 2s;
 }
+@media (max-width: 500px) {
+    .btn {
+        height: 100px;
+        width: 100px;
+        border-radius: 15px;
+        border: 5px solid black;
+        margin: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    .btn_container {
+        flex-direction: column; /* Stack buttons vertically on small screens */
+        align-items: center;
+    }
+} 
